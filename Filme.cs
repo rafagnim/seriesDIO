@@ -1,10 +1,8 @@
-using System;
-
 namespace DIO.Series
 {
-    public class Serie : EntidadeBase
+    public class Filme : EntidadeBase
     {
-        public Serie(int id, Genero genero, string titulo, string descricao, int ano)
+        public Filme(int id, Genero genero, string titulo, string descricao, int ano)
         {
             this.Id = id;
             this.Genero = genero;
