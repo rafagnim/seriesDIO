@@ -24,7 +24,8 @@ namespace DIO.Series
                         break;
 
                     default:
-                        throw new ArgumentOutOfRangeException();
+                        Console.Write("Digite uma das opções apresentadas!!");
+                        break;
                 }
 
                 opcaoinicial = opcaoFilmesOUSeries();
@@ -249,7 +250,8 @@ namespace DIO.Series
                         Console.Clear();
                         break;
                     default:
-                        throw new ArgumentOutOfRangeException();
+                        Console.Write("Digite uma das opções apresentadas!!");
+                        break;
                 }
 
                 opcaoUsuario = ObterOpcaoUsuario(opcao);
@@ -312,6 +314,7 @@ namespace DIO.Series
             Console.WriteLine("1 - Tratar SÉRIES");
             Console.WriteLine("2 - Tratar FILMES");
             Console.WriteLine("S - Sair");
+            Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine().ToUpper();
 
